@@ -39,7 +39,7 @@ export const experiencesData = [
     location: "Interco, USA",
     description:
       "At Interco, I have been a Full-Stack Developer since August 2020, contributing to diverse projects across web, mobile, and desktop platforms. I created many desktop apps using Python, Tkinter, PyQT. I created web app using Django, Next.js. And I created android apps using Android Studio and Kivy.",
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(CgWorkAlt),
     date: "Aug 2020 - Present",
   },
   {
@@ -55,7 +55,7 @@ export const experiencesData = [
     location: "Fiverr",
     description:
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     date: "Jul, 2020 - present",
   },
 ] as const;
