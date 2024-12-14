@@ -19,11 +19,24 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I am a full-stack web developer with expertise in <span className="font-medium"> React, Next.js, Node.js, and MongoDB</span>. I am also proficient in TypeScript and Prisma and continually strive to learn new technologies to enhance my skill set. My favorite part of programming is solving complex problems—I love the thrill of finding solutions to challenging issues. I am currently seeking a full-time position as a software developer.
-        When I'm not coding, I enjoy playing video games, watching movies, and exploring new hobbies. Recently, I've been diving into history and philosophy to broaden my perspective. I'm also learning to play the guitar, which has been a rewarding creative outlet.
+        I am a passionate and results-driven Full-Stack Developer with expertise
+        in building robust, scalable, and user-centric applications. With a
+        solid foundation in Python, JavaScript, and modern frameworks like
+        Django, React, and Next.js, I specialize in creating seamless user
+        experiences across web, mobile, and desktop platforms. My approach
+        combines a deep understanding of both frontend and backend technologies,
+        allowing me to manage end-to-end development processes effectively. I am
+        proficient in database management with MySQL, PostgreSQL, and MongoDB,
+        and I ensure high-quality, maintainable code through best practices like
+        CI/CD pipelines and version control with Git and GitHub. In addition to
+        technical skills, I am committed to continuous learning, adapting to new
+        tools, and fostering collaborative relationships with teams and clients.
+        Whether it's designing responsive UI with Tailwind CSS, automating tasks
+        with Selenium, or optimizing performance with Docker and AWS, I bring a
+        proactive mindset to every project. Driven by challenges, I thrive in
+        dynamic, fast-paced environments and always aim to deliver innovative
+        solutions that meet user needs and exceed expectations.
       </p>
-
-     
     </motion.section>
   );
 }

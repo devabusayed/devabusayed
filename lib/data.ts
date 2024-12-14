@@ -35,26 +35,29 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Full Stack Developer",
+    title: "Software Engineer",
     location: "Interco, USA",
-    description:
-      "At Interco, I have been a Full-Stack Developer since August 2020, contributing to diverse projects across web, mobile, and desktop platforms. I created many desktop apps using Python, Tkinter, PyQT. I created web app using Django, Next.js. And I created android apps using Android Studio and Kivy.",
+    description: `Developed and optimized scalable software solutions using Python and JavaScript, improving system performance by 30%.
+Collaborated with cross-functional teams to meet project deadlines, ensuring high-quality product delivery.
+Focused on enhancing backend systems and troubleshooting performance bottlenecks.`,
     icon: React.createElement(CgWorkAlt),
     date: "Aug 2020 - Present",
   },
   {
-    title: "Full Stack Developer",
+    title: "Junior Full Stack Developer",
     location: "Id Nube, Mexico",
-    description:
-      "As a Full Stack Developer at Id Nube, I contributed to the development of web, and desktop applications, ensuring scalable and high-quality solutions. I created 3 desktop App using Python, Tkinter, PyQT. And also created a website using Django.",
+    description: `Built web apps with React.js, Django, and Flask, boosting performance by 40%.
+Optimized MySQL, PostgreSQL, and MongoDB databases, reducing query times by 35%.
+Led a team of 5 developers, conducting 30+ code reviews monthly.`,
     icon: React.createElement(CgWorkAlt),
     date: "Apr, 2021 - Jun, 2021",
   },
   {
-    title: "Full Stack Developer",
-    location: "Fiverr",
-    description:
-      "I have worked with many clients. Developed many projects as a full stack developer in web, mobile & desktop app. ",
+    title: "Freelance Full Stack Developer",
+    location: "Fiverr, Freelance",
+    description: `Delivered 50+ applications using Python (Django, Flask) and JavaScript (React.js, Next.js), achieving 95%+ client satisfaction.
+Developed web scraping tools with Selenium, BeautifulSoup, and Scrapy.
+Optimized web apps to handle 100,000+ users.`,
     icon: React.createElement(CgWorkAlt),
     date: "Jul, 2020 - present",
   },
@@ -87,21 +90,39 @@ export const projectsData = [
 export const skillsData = [
   "Python",
   "Django",
+  "Flask",
   "HTML",
   "CSS",
   "JavaScript",
   "TypeScript",
-  "React",
+  "React.js",
   "Next.js",
   "Node.js",
   "Git",
+  "GitHub",
   "Tailwind",
-  "Prisma",
+  "Docker",
+  "AWS",
+  "CI/CD",
+  "MySQL",
+  "PostgreSQL",
   "MongoDB",
+  "REST APIs",
+  "GraphQL",
+  "Selenium",
+  "BeautifulSoup",
+  "Scrapy",
+  "Pandas",
+  "NumPy",
+  "Matplotlib",
+  "Seaborn",
+  "Tkinter",
+  "PyQt5",
+  "Prisma",
   "Redux",
   "GraphQL",
   "Apollo",
   "Express",
-  "PostgreSQL",
   "Framer Motion",
 ] as const;
+
