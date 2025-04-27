@@ -5,6 +5,8 @@ import Intro from "@/components/intro";
 import Projects from "@/components/projects";
 import SectionDivider from "@/components/section-divider";
 import Skills from "@/components/skills";
+import VideoShowcase from "@/components/video-showcase";
+import Testimonials from "@/components/testimonials";
 
 export default function Home() {
   return (
@@ -13,8 +15,10 @@ export default function Home() {
       <SectionDivider />
       <About />
       <Projects />
+      <VideoShowcase />
       <Skills />
       <Experience />
+      <Testimonials />
       <Contact />
     </main>
   );

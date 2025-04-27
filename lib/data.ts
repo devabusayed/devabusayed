@@ -20,12 +20,20 @@ export const links = [
     hash: "#projects",
   },
   {
+    name: "Video Showcase",
+    hash: "#video-showcase",
+  },
+  {
     name: "Skills",
     hash: "#skills",
   },
   {
     name: "Experience",
     hash: "#experience",
+  },
+  {
+    name: "Testimonials",
+    hash: "#testimonials",
   },
   {
     name: "Contact",
@@ -84,6 +92,49 @@ export const projectsData = [
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
+  },
+] as const;
+
+export const videoProjectsData = [
+  {
+    title: "E-commerce Platform",
+    description:
+      "A feature-rich e-commerce platform with product search, filtering, cart functionality, and secure payment integration.",
+    youtubeId: "dQw4w9WgXcQ", // Replace with your actual YouTube video ID
+    tags: ["React", "Node.js", "MongoDB", "Stripe", "AWS"],
+  },
+  {
+    title: "Real-time Chat Application",
+    description:
+      "A real-time messaging application with private chats, group conversations, and file sharing capabilities.",
+    youtubeId: "dQw4w9WgXcQ", // Replace with your actual YouTube video ID
+    tags: ["Socket.io", "React", "Express", "MongoDB", "WebRTC"],
+  },
+  {
+    title: "Task Management System",
+    description:
+      "A comprehensive project management tool with task tracking, team collaboration, and progress visualization.",
+    youtubeId: "dQw4w9WgXcQ", // Replace with your actual YouTube video ID
+    tags: ["React", "Redux", "Node.js", "PostgreSQL", "Docker"],
+  },
+] as const;
+
+export const testimonialsData = [
+  {
+    name: "Sarah Johnson",
+    title: "CTO at TechStart Inc.",
+    text: "Working with Abu was a game-changer for our project. His technical expertise and ability to solve complex problems efficiently saved us countless hours. The solutions he implemented were not only effective but also scalable for our future growth.",
+    youtubeId: "dQw4w9WgXcQ", // Replace with actual YouTube video ID
+  },
+  {
+    name: "Michael Rodriguez",
+    title: "Founder of DataFlow",
+    text: "Abu delivered our data visualization dashboard ahead of schedule and exceeded all our expectations. His attention to detail and understanding of user experience resulted in an intuitive interface that our clients love. We've seen a 40% increase in user engagement since launch.",
+  },
+  {
+    name: "Emily Chen",
+    title: "Product Manager at WebSolutions",
+    text: "We hired Abu to modernize our legacy system, and the results were outstanding. He not only refactored our codebase for better performance but also introduced new features that we hadn't even considered. His proactive approach and clear communication made the entire process smooth.",
   },
 ] as const;
 
