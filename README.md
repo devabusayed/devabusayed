@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Abu Sayed</h1>
 <h3 align="center">A passionate Full Stack developer</h3>
 
-- 👨‍💻 All of my projects are available at [https://github.com/abusayedgit?tab=repositories](https://github.com/abusayedgit?tab=repositories)
+- 👨‍💻 All of my projects are available at [https://github.com/abusayedgit?tab=repositories](https://github.com/devabusayed?tab=repositories)
 
 - 💬 Ask me about **Django, React, Vue, Angular**
 
