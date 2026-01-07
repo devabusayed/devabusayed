@@ -94,6 +94,13 @@ export const projectsData = [
 
 export const videoProjectsData = [
   {
+    title: "E-commerce Website with Django & React.js",
+    description:
+      "I built a feature-rich e-commerce website utilizing Django for the backend and React.js for the frontend. The application includes user authentication, comprehensive product management, shopping cart functionality, secure payment integration, and an intuitive admin dashboard. Designed with scalability in mind, it supports order tracking, user reviews, and dynamic category browsing.",
+    youtubeId: "iUCebNJhTfM",
+    tags: ["Django", "React.js", "E-commerce", "Web Development"],
+  },
+  {
     title: "Crypto Trading Bot with Python & Kivy",
     description:
       "I built a crypto trading bot using Python and Kivy for the UI. The bot automates crypto trades, integrates with exchange APIs, and features a real-time dashboard for monitoring trades easily from a cross-platform desktop app.",
