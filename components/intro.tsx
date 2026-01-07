@@ -64,7 +64,7 @@ export default function Intro() {
       >
         
         
-        I'm <span className="font-bold">Abu Sayed.</span> I'm a{" "}, a <span className="font-bold">Full-Stack Developer</span> {" "}  with 4 years of experience. I build scalable, user-friendly applications using <span className="font-bold">Python, JavaScript, Django, and React.js</span> delivering efficient solutions that meet user needs.
+        I'm <span className="font-bold">Abu Sayed.</span> I'm a <span className="font-bold">Python Automation & Django Developer</span> with 6+ years of experience. I specialize in web automation, scraping systems, and building scalable web applications using <span className="font-bold">Python, Django, React, and Next.js</span>, delivering efficient solutions that meet user needs.
       </motion.h1>
 
       <motion.div

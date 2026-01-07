@@ -19,23 +19,10 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I am a passionate and results-driven Full-Stack Developer with expertise
-        in building robust, scalable, and user-centric applications. With a
-        solid foundation in Python, JavaScript, and modern frameworks like
-        Django, React, and Next.js, I specialize in creating seamless user
-        experiences across web, mobile, and desktop platforms. My approach
-        combines a deep understanding of both frontend and backend technologies,
-        allowing me to manage end-to-end development processes effectively. I am
-        proficient in database management with MySQL, PostgreSQL, and MongoDB,
-        and I ensure high-quality, maintainable code through best practices like
-        CI/CD pipelines and version control with Git and GitHub. In addition to
-        technical skills, I am committed to continuous learning, adapting to new
-        tools, and fostering collaborative relationships with teams and clients.
-        Whether it's designing responsive UI with Tailwind CSS, automating tasks
-        with Selenium, or optimizing performance with Docker and AWS, I bring a
-        proactive mindset to every project. Driven by challenges, I thrive in
-        dynamic, fast-paced environments and always aim to deliver innovative
-        solutions that meet user needs and exceed expectations.
+        I am an expert in Python-based Web Automation, Scraping and Web App, with extensive experience in developing scalable, reliable, and secure data extraction systems. My specialization includes Django backend development, automation pipelines, and solutions for bot-resistant scraping.
+      </p>
+      <p className="mb-3">
+        I have successfully delivered automation tools, scraping systems, and SaaS backends for clients globally, with a strong emphasis on performance, accuracy, and long-term maintainability.
       </p>
     </motion.section>
   );
