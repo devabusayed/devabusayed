@@ -1,9 +1,8 @@
 "use client";
 
 import React from "react";
-import SectionHeading from "./section-heading";
-import { projectsWithVideosData } from "@/lib/data";
-import ProjectWithVideo from "./project-with-video";
+import SectionHeading from "@/components/section-heading";
+import { videoProjectsData } from "@/lib/data";
 import { motion } from "framer-motion";
 
 export default function ProjectsPage() {
@@ -19,8 +18,22 @@ export default function ProjectsPage() {
           Explore my previous projects with video demonstrations. These showcase my skills and experience in various technologies.
         </p>
         <div className="grid gap-8">
-          {projectsWithVideosData.map((project, index) => (
-            <ProjectWithVideo key={index} {...project} />
+          {videoProjectsData.map((project, index) => (
+            <div key={index} className="mb-8">
+              <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+              <p className="text-gray-700 dark:text-white/70 mb-4">{project.description}</p>
+              <div className="aspect-video">
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src={`https://www.youtube.com/embed/${project.youtubeId}`}
+                  title={project.title}
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
           ))}
         </div>
       </motion.div>
