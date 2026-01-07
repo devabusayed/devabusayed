@@ -136,11 +136,11 @@ export const videoProjectsData = [
     tags: ["Python", "Automation", "Desktop App", "Bot", "Google Search"],
   },
   {
-    title: "Auto Ticket Booking Bot",
+    title: "Auto Visa Slot Booking Bot",
     description:
-      "I built an auto ticket booking bot using Python, requests, bs4, and a custom CAPTCHA bypass system. The bot automates the ticket purchase process, efficiently handling sessions, form submissions, and solving CAPTCHAs to increase success rates for high-demand bookings.",
+      "I built an automated visa slot booking bot using Python, requests, and BeautifulSoup, with an integrated CAPTCHA bypass system. The bot streamlines the process of monitoring and booking visa appointment slots, efficiently managing sessions, form submissions, and automatically solving CAPTCHAs to secure appointments in high-demand scenarios.",
     youtubeId: "f858qUh09Vw",
-    tags: ["Python", "Requests", "BeautifulSoup", "Captcha Bypass", "Automation", "Bot"],
+    tags: ["Python", "Requests", "BeautifulSoup", "Captcha Bypass", "Automation", "Visa Booking", "Bot"],
   },
   {
     title: "Food Ordering & POS Desktop Application",
