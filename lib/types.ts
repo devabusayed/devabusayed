@@ -6,7 +6,7 @@ export type VideoProjectType = {
   title: string;
   description: string;
   youtubeId: string; // YouTube video ID
-  tags: string[];
+  tags: readonly string[];
 };
 
 export type TestimonialType = {
