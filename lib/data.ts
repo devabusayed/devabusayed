@@ -101,11 +101,11 @@ export const videoProjectsData = [
     tags: ["Python", "Kivy", "Crypto", "Trading Bot", "Automation"],
   },
   {
-    title: "Web Automation Project 2",
+    title: "Web Scraping with Python & Selenium",
     description:
-      "Scalable web scraping system with proxy rotation and rate limiting for reliable data collection.",
+      "I built a web scraping system using Python, Selenium, and BeautifulSoup. The project demonstrates extracting data from websites, handling anti-bot measures, and efficiently collecting targeted information with robust scraping techniques.",
     youtubeId: "SS2PRIFzR04",
-    tags: ["Python", "BeautifulSoup", "Scrapy", "Anti-Bot"],
+    tags: ["Python", "Selenium", "BeautifulSoup", "Web Scraping", "Automation"],
   },
   {
     title: "Facebook Automation Tool - Auto Group Joiner",
