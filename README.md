@@ -26,7 +26,7 @@ Senior Full Stack Python Developer with 5+ years of experience planning, buildin
 - Collaborated with cross-functional teams to design and implement new product features
 
 ### Senior Full Stack Developer (2020–Present)
-**Freelance (Upwork & Fiverr) (Remote)**
+**Freelance (Upwork & Fiverr)**
 - Built 8+ SaaS platforms end-to-end for 20+ global clients (frontend, backend, database, and deployment), processing 1M+ API requests monthly
 - Built 25+ production-grade REST APIs using Django and FastAPI, achieving under 200ms average response time and supporting 50K+ concurrent users
 - Deployed applications using Docker and cloud infrastructure (AWS, Linux)
