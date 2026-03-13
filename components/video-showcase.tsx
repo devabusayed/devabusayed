@@ -1,11 +1,13 @@
 "use client";
 
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import SectionHeading from "./section-heading";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 import { VideoProjectType } from "@/lib/types";
 import { videoProjectsData } from "@/lib/data";
+
+const INITIAL_COUNT = 5;
 
 type VideoProjectProps = {
   project: VideoProjectType;
@@ -62,14 +64,29 @@ function VideoProject({ project }: VideoProjectProps) {
 
 export default function VideoShowcase() {
   const { ref } = useSectionInView("Video Showcase");
+  const [showAll, setShowAll] = useState(false);
+  const projectsToShow = showAll
+    ? videoProjectsData
+    : videoProjectsData.slice(0, INITIAL_COUNT);
+  const hasMore = videoProjectsData.length > INITIAL_COUNT;
 
   return (
     <section ref={ref} id="video-showcase" className="scroll-mt-28 mb-28">
       <SectionHeading>Project Showcase</SectionHeading>
       <div className="flex flex-col items-center">
-        {videoProjectsData.map((project, index) => (
+        {projectsToShow.map((project, index) => (
           <VideoProject key={index} project={project} />
         ))}
+        {hasMore && (
+          <motion.button
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="mt-6 px-6 py-3 rounded-full bg-gray-900 text-white text-sm font-medium hover:bg-gray-800 focus:scale-105 active:scale-100 transition dark:bg-white/10 dark:hover:bg-white/20 dark:text-white"
+            onClick={() => setShowAll((prev) => !prev)}
+          >
+            {showAll ? "Show less" : `Show more (${videoProjectsData.length - INITIAL_COUNT} more)`}
+          </motion.button>
+        )}
       </div>
     </section>
   );

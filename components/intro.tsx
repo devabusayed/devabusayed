@@ -64,7 +64,8 @@ export default function Intro() {
       >
         
         
-        I'm <span className="font-bold">Abu Sayed.</span> I'm a <span className="font-bold">Python Automation & Django Developer</span> with 6+ years of experience. I specialize in web automation, scraping systems, desktop applications, and building scalable web applications using <span className="font-bold">Python, Django, React, and Next.js</span>, delivering efficient solutions that meet user needs.
+        I'm <span className="font-bold">Abu Sayed.</span> I'm a <span className="font-bold">Senior Full Stack Python Developer</span> with 5+ years of experience in <span className="font-bold">Django, Flask, FastAPI & Node.js</span>, <span className="font-bold">React/Next.js</span>, and 
+        <span className="font-bold">SaaS & AI</span>. I design and deliver scalable web and desktop applications, automation workflows, scraping solutions, and production-ready systems from backend architecture and REST APIs to frontend interfaces and deployment.
       </motion.h1>
 
       <motion.div

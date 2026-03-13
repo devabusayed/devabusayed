@@ -19,10 +19,10 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I am an expert in Python-based Web Automation, Scraping and Web App, with extensive experience in developing scalable, reliable, and secure data extraction systems. My specialization includes Django backend development, automation pipelines, and solutions for bot-resistant scraping.
+        Full Stack Python Developer with <strong>5+ years of experience</strong> designing and delivering scalable SaaS platforms and web applications. Specialized in <strong>Django, FastAPI, REST APIs, PostgreSQL, Node.js, React, and Next.js</strong>. Experienced in production-ready systems, AI integration, and backend architecture for high-performance applications.
       </p>
       <p className="mb-3">
-        I have successfully delivered automation tools, scraping systems, and SaaS backends for clients globally, with a strong emphasis on performance, accuracy, and long-term maintainability.
+        Strong track record of end-to-end delivery from design through deployment and maintenance. Scaled 45+ SaaS platforms for 70+ international clients with 1M+ monthly API volume; maintained 99.9% uptime on production systems. Focus on Agile delivery, code quality, and technical documentation.
       </p>
     </motion.section>
   );

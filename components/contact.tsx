@@ -34,9 +34,13 @@ export default function Contact() {
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         Please contact me directly at{" "}
         <a className="underline" href="mailto:devabusayed@gmail.com">
-        devabusayed@gmail.com
-        </a>{" "}
-        or through this form.
+          devabusayed@gmail.com
+        </a>
+        , at{" "}
+        <a className="underline" href="tel:+8801735593444">
+          +880 1735 593444
+        </a>
+        , or through this form. Dinajpur, Bangladesh.
       </p>
 
       <form
